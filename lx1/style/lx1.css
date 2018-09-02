@@ -139,7 +139,7 @@ a:hover{
     right: 0px;
 }
 
-#header .search{
+.search{
     width: 292px;
     height: 32px;
     background: url(../images/search.png);
@@ -175,8 +175,6 @@ a:hover{
     height: 36px;
     margin: 0 auto;
     padding-top:8px;
-    /* background: blue; */
-    
 }
 
 #nav li{
@@ -290,7 +288,6 @@ a:hover{
 
 #main{
     width: 942px;
-    height: 1000px;
     margin: 0 auto;
     padding-top:30px;
 }
@@ -643,4 +640,86 @@ a:hover{
     color: #660000;
     text-align: center;
     margin-top:8px;
+}
+
+#footer{
+    height: 304px;
+    background: url(../images/footer_bg.png) repeat-x;
+    margin-top: 20px;
+}
+
+#footer_head{
+    width: 960px;
+    height: 60px;
+    margin: 0 auto;
+    position: relative;
+}
+#footer_head p{
+    float: left;
+    font-size: 14px;
+    color: #cbcbcb;
+    font-weight: bold;
+    height: 60px;
+    line-height: 60px; 
+}
+
+#footer_head .secure{
+    background: url(../images/footer_info.png) no-repeat 0 6px;
+    padding-left: 62px;
+    margin-right:26px;
+}
+
+#footer_head .ship_box{
+    background: url(../images/footer_info.png) no-repeat 0 -52px;
+    padding-left: 50px;
+}
+
+#footer_head .search {
+    position: absolute;
+    top:16px;
+    right:0;   
+}
+
+#footer_info{
+    width: 940px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+#footer_info dl{
+    float: left;
+    width: 188px;
+}
+#footer_info dt{
+    line-height: 50px;
+}
+
+#footer_info dt a{
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none; 
+}
+
+#footer_info dd{
+    line-height: 20px;
+}
+
+#footer_info dd a{
+    font-size: 13px;
+    color: #cfcfcf;
+}
+
+#footer_info a:hover{
+    color: #544141;
+    text-decoration: none; 
+}
+
+#footer_info .space{
+    padding-top:30px;
+}
+
+#footer_info span{
+    color: #ffcc00;
 }
